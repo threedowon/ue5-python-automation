@@ -7,6 +7,17 @@
 .vscode/
 .idea/
 
+# Python / PyCharm additions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+*.db
+
 # OS-specific files
 .DS_Store
 Thumbs.db
@@ -70,3 +81,20 @@ SourceArt/**/*.tga
 # Local user config (do not share)
 Config/DefaultEditorPerProjectUserSettings.ini
 Config/DefaultEditorUserSettings.ini
+
+# ============================
+# Extra recommended ignores
+# ============================
+
+# Unreal auto-generated scripting outputs
+Script/
+
+# Logs
+*.log
+
+# Temporary packaging/cook outputs
+Saved/Backup/
+Saved/Cooked/
+Saved/Collections/
+Saved/Logs/
+Saved/StagedBuilds/
